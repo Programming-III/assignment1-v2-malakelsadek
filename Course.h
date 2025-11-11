@@ -6,15 +6,19 @@
 using namespace std;
 //#write your code here
 
-
-
-
-
-
-
-
-
-
+class Course{
+private:
+    string courseCode;
+    string courseName;
+    int maxStudents;
+    Student* students;
+    int currentStudents;
+public:
+    Course(string CC, string CN, int MS);
+    ~Course();
+    void addStudent(const Student &s);
+    void displayCourseInfo();
+};
 
 
 
