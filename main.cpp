@@ -77,6 +77,7 @@ int main() {
     Instructor i = new Instructor("Computer Science", 5);
     Course c = new Course("CS101" , "Introduction to Programming", 3);
 
+    c.addStudent(s);
     c.displayCourseInfo();
     i.display();
     s.display();
